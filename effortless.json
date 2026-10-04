@@ -1,0 +1,20 @@
+{
+  "SSoTmeProjectId": "c64565b0-e814-4e52-b1b4-d6daebeb369d",
+  "Name": "mobile-app",
+  "Description": "Native mobile add-in: an Expo (React Native) app over the backend's generated API, built from the project's rulebook.",
+  "ProjectSettings": [],
+  "ProjectTranspilers": [
+    {
+      "IsSSoTTranspiler": false,
+      "Name": "rulebook-to-react-native",
+      "RelativePath": "/",
+      "CommandLine": "rulebook-to-react-native -i ../effortless-rulebook/effortless-rulebook.json -p \"appName=$appName$\" -p bundleId=$bundleId$ -p apiBaseUrl=$apiBaseUrl$ -w 540000",
+      "IsDisabled": false,
+      "Description": "Expo (React Native, TypeScript) app with a screen per table"
+    }
+  ],
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "CurrentPath": null,
+  "SSoTmeProjectFiles": null
+}

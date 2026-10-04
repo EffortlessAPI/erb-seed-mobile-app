@@ -1,0 +1,36 @@
+{
+  "seed": {
+    "id": "mobile-app",
+    "displayName": "Native mobile app",
+    "tagline": "An Expo (React Native) app over your backend API.",
+    "description": "Adds a mobile/ folder with an Expo (React Native, TypeScript, expo-router) app generated from the rulebook: a list, detail, create and edit screen per table, derived values read-only, relationships as links, all talking to the backend's generated API.",
+    "kind": "child",
+    "category": "mobile",
+    "stack": "React Native, Expo, TypeScript",
+    "requiresInput": null,
+    "mountPath": "mobile",
+    "requires": "rulebook-backend",
+    "sortOrder": 250
+  },
+  "subSeeds": [],
+  "replacements": [
+    {
+      "key": "appName",
+      "label": "App name",
+      "description": "The app's display name on the device and its home screen title.",
+      "default": "My Rulebook"
+    },
+    {
+      "key": "bundleId",
+      "label": "Bundle id",
+      "description": "The iOS bundle identifier and Android package name (reverse-DNS).",
+      "default": "com.effortlessapi.myrulebook"
+    },
+    {
+      "key": "apiBaseUrl",
+      "label": "API base URL",
+      "description": "Where the app reaches the backend's generated API.",
+      "default": "http://localhost:42441"
+    }
+  ]
+}
